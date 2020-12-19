@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*REBOOT*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.forme_left
+{
+    background: linear-gradient(#E942FF,#8838FF);
+    height:900px;
+    width: 450px;
+    border-radius:0px 0px 800px 400px;
+    margin-right: 150px;
+    border-bottom: 500px;
+}
+.telephone
+{
+    position: absolute;
+    top: 240px; left: 390px;  
+    border: black,15px;
+    background:white;
+    height:600px;
+    width: 300px;
+    border-radius:40px;
+    box-shadow: 5px 5px 30px grey; 
+}
+.telephone_top{
+    background: linear-gradient(#E942FF,#8838FF);
+    height: 110px;
+    width:280px;
+   border-radius:20px 20px 10px 10px;
+   margin: 10px;        
+}
+.telephone_top_point1{
+    height: 3px;
+    width: 3px;
+    border-radius: 1000px;
+    background :white;
+    margin-top: 3px;
+}
+.telephone_top_point2{
+    @extend.telephone_top_point1;
+}
+.telephone_top_point3{
+   @extend.telephone_top_point1;
+}
+.telephone_top_point_flex{
+    display:inline-flex;
+    flex-direction:column;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top:45px;
+}
+.fleche{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.sd
+{
+    display: flex;
+    margin-top: 40px;
+    float: left;
+}
+.paragraphe{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    
+}
+.midle{
+    @extend.midle2;
+    margin-bottom: 12px;
+}
+.midle2{
+    width: 200px;
+    background: hsla(289, 100%, 72%,0.4); 
+    height:50px;
+    border-radius: 15px 15px 15px 0px;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 5px 5px 30px grey; 
+}
+.lol{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.image_chien1{
+    margin-left: -14px; 
+}
+.image_chien2{
+    margin-left: 7px;
+}
+.image_chien3{
+    @extend.image_chien2;
+}
+.text_blanc1{
+    background:white;
+    border-radius: 15px 15px 15px 0px;
+    width: 180px;
+    height: 45px;
+    margin-top: 20px;
+    transform: rotate(180deg);
+    margin-left: 70px;
+    box-shadow: 5px 5px 30px grey; 
+}
+.text_blanc2{
+    @extend.text_blanc1;
+}
+.text_blanc3{
+    background: hsla(289, 100%, 72%,0.4);
+    border-radius: 15px 15px 15px 0px;
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 30px grey; 
+}
+.text_area{
+    margin-top: 30px;
+    border-radius:30px;
+}
+.image_right_arrow
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 220px;
+    margin-top: -35px;
+}
+.titre1_right{
+    text-align: right; 
+    color: purple;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    margin-top: -550px;
+    margin-right: 150px;
+    text-shadow: 13px 13px 20px grey; 
+}
+.titre1_right_text{
+    position:relative ;
+    left: 795px;
+    color: grey;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: initial;
+    width: 470px;
+    height: 200px;
+    margin-top: 50px;
+    line-height: 33px;
+    text-shadow: 12px 12px 10px grey; 
+}
+.forme_invisible_right
+{
+    height:500px;
+    width: 500px;
+    background: hsla(289, 100%, 72%,0.1);
+    border-radius: 1000%;
+    position:relative ;
+    left: 900px;
+    bottom:200px;
+    position: fixed;
+}
+.carré_radius_telephone{
+    height:48px;
+    width: 150px;
+    border-radius: 18px;
+    background:white;
+    position:relative ;
+    left: 470px;
+    bottom:665px;
+    position: fixed;
+}

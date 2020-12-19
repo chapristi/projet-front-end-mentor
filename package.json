@@ -1,0 +1,19 @@
+{
+  "name": "projet-front",
+  "version": "1.0.0",
+  "description": "projet fronteend mentor train",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis",
+  "license": "ISC",
+  "keywords": [
+    "frontendmentor"
+  ],
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
